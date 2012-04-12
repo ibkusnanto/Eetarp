@@ -1,0 +1,51 @@
+.company#contact_us
+  .title
+    CONTACT US
+  .content
+    .addresses.singapore.clearfix
+      %address.pull-left
+        %strong Eetarp Engineeering Pte Ltd
+        ( 
+        %a{:href => "http://maps.google.com/maps?saddr=&daddr=1.454246,103.796293", :target => 'blank'}
+          get direction
+        )
+        %br
+        21, Woodlands Industrial Park E1, #02-08,
+        %br
+        Singapore 757720
+        %br
+        Phone: (+60) 6893-5796 or (+60) 9818-9612
+        %br
+        Fax: (+60) 6891-1857
+        %br
+        Enquiries: 
+        = mail_to "info@eetarp.com.sg"
+        or 
+        = mail_to "eetarp@singnet.com.sg"
+        %br
+        Services: 
+        = mail_to "service@eetarp.com.sg"
+      .map.pull-right
+        = image_tag('singaporemap.png')
+    .addresses.malaysia.clearfix
+      %address.pull-left
+        %strong Eetarp Engineering (M) Sdn Bhd
+        ( 
+        %a{:href => "http://maps.google.com/maps?saddr=&daddr=3.1129116,101.62218419999999", :target => 'blank'}
+          get direction
+        )
+        %br
+        Suite 121, 1st Floor, Lobby 6,
+        %br
+        Block A, Damansara Intan, No 1 Jalan SS20/27,
+        %br
+        47400 Petaling Jaya, Selangor, Malaysia
+        %br
+        Phone: (+60) 3-7729-3973
+        %br
+        Fax: (+60) 3-7729-8973
+        %br
+        Email: 
+        = mail_to "info@eetarp.com.sg"
+      .map.pull-right
+        = image_tag('malaysiamap.png')
