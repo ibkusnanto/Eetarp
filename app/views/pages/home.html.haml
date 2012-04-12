@@ -1,0 +1,31 @@
+#wrapper
+  .slider-wrapper.theme-default
+    .ribbon
+    #slider.nivoSlider
+      = image_tag("slide1.jpg", :title => "#caption1")
+      = image_tag("slide2.jpg", :title => "#caption2")
+      = image_tag("slide3.jpg", :title => "#caption3")
+    #caption1.nivo-html-caption
+      %strong ELECTRICAL SAFETY
+      %span
+      = succeed "." do
+        %em Some description here
+    #caption2.nivo-html-caption
+      %strong POWER QUALITY
+      %span
+      = succeed "." do
+        %em Some description here
+    #caption3.nivo-html-caption
+      %strong ENERGY MANAGEMENT
+      %span
+      = succeed "." do
+        %em Some description here
+.row.highlights
+  .span3
+    YOUR TRUSTED PARTNER
+  .span3
+    YOUR RIGHT SOLUTIONS
+  .span3
+    BROWSE OUR WORLD CLASS PRODUCTS
+  .span3
+    ENGAGE OUR SERVICES

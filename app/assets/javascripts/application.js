@@ -13,3 +13,14 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(window).load(function() {
+  $('#slider').nivoSlider({
+    effect: 'random',
+    directionNavHide: true,
+    pauseOnHover: true,
+    captionOpacity: 1,
+    prevText: '<',
+    nextText: '>'
+  });
+});
