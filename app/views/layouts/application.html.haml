@@ -1,10 +1,113 @@
 !!!
 %html
   %head
+    %link{ :rel => 'shortcut icon', :href => '/assets/eetarp.ico', :type => 'image/x-icon'}
     %title Eetarp Engineeering
     = stylesheet_link_tag    "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
+    :javascript
+      $(document).ready(function(){
+        $('.up-down.one').mouseover(function(){
+          $('.default1').stop().animate({
+            height: 255    
+          }, 200);                        
+        }).mouseout(function(){
+          $('.default1').stop().animate({
+            height: 290 
+          }, 200);   
+        })
+
+        $('.up-down.two').mouseover(function(){
+          $('.default2').stop().animate({
+            height: 255    
+          }, 200);                        
+        }).mouseout(function(){
+          $('.default2').stop().animate({
+            height: 290 
+          }, 200);   
+        })
+
+        $('.up-down.three').mouseover(function(){
+          $('.default3').stop().animate({
+            height: 255    
+          }, 200);                        
+        }).mouseout(function(){
+          $('.default3').stop().animate({
+            height: 290 
+          }, 200);   
+        })
+
+        $('.up-down.four').mouseover(function(){
+          $('.default4').stop().animate({
+            height: 255    
+          }, 200);                        
+        }).mouseout(function(){
+          $('.default4').stop().animate({
+            height: 290 
+          }, 200);   
+        })
+
+        $('.up-down.five').mouseover(function(){
+          $('.default5').stop().animate({
+            height: 255    
+          }, 200);                        
+        }).mouseout(function(){
+          $('.default5').stop().animate({
+            height: 290 
+          }, 200);   
+        })
+
+        $('.up-down.six').mouseover(function(){
+          $('.default6').stop().animate({
+            height: 255    
+          }, 200);                        
+        }).mouseout(function(){
+          $('.default6').stop().animate({
+            height: 290 
+          }, 200);   
+        })
+
+        $('.up-down.seven').mouseover(function(){
+          $('.default7').stop().animate({
+            height: 255    
+          }, 200);                        
+        }).mouseout(function(){
+          $('.default7').stop().animate({
+            height: 290 
+          }, 200);   
+        })
+
+        $('.up-down.eight').mouseover(function(){
+          $('.default8').stop().animate({
+            height: 255    
+          }, 200);                        
+        }).mouseout(function(){
+          $('.default8').stop().animate({
+            height: 290 
+          }, 200);   
+        })
+
+        $('.up-down.nine').mouseover(function(){
+          $('.default9').stop().animate({
+            height: 255    
+          }, 200);                        
+        }).mouseout(function(){
+          $('.default9').stop().animate({
+            height: 290 
+          }, 200);   
+        })
+
+        $('.up-down.ten').mouseover(function(){
+          $('.default10').stop().animate({
+            height: 255    
+          }, 200);                        
+        }).mouseout(function(){
+          $('.default10').stop().animate({
+            height: 290 
+          }, 200);   
+        })
+      })
   %body
     .container
       = render 'layouts/navbar'

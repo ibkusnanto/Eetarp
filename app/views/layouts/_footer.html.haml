@@ -2,35 +2,36 @@
   .span2#solutions
     .title SOLUTIONS
     %br
-    = link_to "Electrical safety", "#"
-    = link_to "Power quality", "#"
-    = link_to "Energy management", "#"
+    = link_to "Electrical safety", solutions_electrical_safety_path
+    = link_to "Power quality", solutions_power_quality_path
+    = link_to "Energy management", solutions_energy_management_path
   .span2#products
     .title PRODUCTS
     %br
-    = link_to "Bender", "#"
-    = link_to "Algodue", "#"
-    = link_to "Atlantic Scientific", "#"
-    = link_to "Cybectec", "#"
-    = link_to "Fluke", "#"
+    = link_to "Algodue", products_algodue_path
+    = link_to "Atlantic Scientific", products_atlantic_scientific_path
+    = link_to "Bender", products_bender_path
+    = link_to "CR Magnetics", products_cr_magnetics_path
+    = link_to "Cybectec", products_cybectec_path
   .span2
     %br
     %br
-    = link_to "CR Magnetics", "#"
-    = link_to "Vectec", "#"
-    = link_to "Qualitrol", "#"
-    = link_to "Nokian Capacitors", "#"
-    = link_to "InfraTec", "#"
+    = link_to "Fluke", products_fluke_path
+    = link_to "Infratec", products_infratec_path
+    = link_to "Nokian Capacitors", products_nokian_capacitors_path
+    = link_to "Qualitrol", products_qualitrol_path
+    = link_to "Vectek", products_vectek_path
   .span2#services
     .title SERVICES
     %br
-    = link_to "Engineering", "#"
-    = link_to "Training", "#"
+    = link_to "Engineering", services_engineering_path
+    = link_to "Training", services_training_path
   .span2#company
     .title COMPANY
     %br
-    = link_to "Your Trusted partner",  company_your_trusted_partner_path
-    = link_to "Careers", company_careers_path
+    = link_to "Your trusted partner",  company_your_trusted_partner_path
+    = link_to "Our clientele",  company_our_clientele_path
+    = link_to "Careers with us", company_careers_with_us_path
     = link_to "Contact us", company_contact_us_path
   .span2#contactus
     .title FEEL FREE TO CONTACT US
@@ -43,11 +44,9 @@
     %strong Enquiries:
     = mail_to "info@eetarp.com.sg"
     %br
-    = mail_to "eetarp@singnet.com.sg"
-    %br
     %strong Services:
     %br
     = mail_to "service@eetarp.com.sg"
 .row.footer
   .span12
-    Copyright ® 2007 Eetarp Engineering Pte Ltd.All rights reserved
+    Copyright ® 2007 Eetarp Engineering Pte Ltd. All rights reserved.
