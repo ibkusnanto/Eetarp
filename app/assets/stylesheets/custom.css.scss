@@ -19,20 +19,25 @@ ul.navbar {
     width: 100px;
   }
 
+  a.active {
+    border-bottom: 5px solid #0055bb;
+    height: 70px;
+    background-color: #C2D0FF;
+    color: white;
+  }
+
   li, a {
     height:100%;
     display:block;
     text-decoration: none;
     text-align: center;
     color: #4F79FF;
-    letter-spacing:-1px;
+    letter-spacing: 0px;
   }
 
   a:hover {
     border-bottom: 5px solid #0055bb;
     height: 70px;
-    background-color: #C2D0FF;
-    color: white;
   }
 }
 
@@ -61,16 +66,47 @@ ul.navbar {
 
 .highlights {
   color: white;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 28px;
   margin-bottom: 20px;
 
+  a {
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  i {
+    margin: 9px 5px;
+  }
+
   .span3 {
-    padding: 20px;
-    height: 250px;
-    width: 180px;
+    height: 290px;
     letter-spacing:-2px;
     background-image: url('small.jpg');
+
+    .titlebox {
+      width: 220px;
+      height: 86px;
+      background-color: black;
+      opacity: 0.4;
+    }
+
+    .title {
+      width: 190px;
+      padding: 15px;
+      position: relative;
+      top: -86px;
+    }
+
+    .link {
+      background-color: black;
+      padding: 0 15px 3px;
+      position: relative;
+      top: 0px;
+    }
   }
 }
 
@@ -111,7 +147,7 @@ ul.navbar {
   }
 
   .span2 {
-    height: 190px;
+    height: 175px;
     padding: 15px;
     width: 116px;
     margin-left: 0;

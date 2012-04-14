@@ -2,15 +2,11 @@
   %li#brand.pull-left
     %a{:href => "/"}
       = image_tag('logo.png')
-  %li#home.pull-left
-    %a{ :href => "#" }
-      SOLUTIONS
-  %li#home.pull-left
-    %a{ :href => "#" }
-      PRODUCTS
-  %li#profile.pull-left
-    %a{ :href => "#" }
-      SERVICES
-  %li#settings.pull-right
-    %a{ :href => "#" }
-      COMPANY
+  %li.pull-left
+    = link_to "SOLUTIONS",  solutions_path, :id => "solutions"
+  %li.pull-left
+    = link_to "PRODUCTS",  products_path, :id => "products"
+  %li.pull-left
+    = link_to "SERVICES",  services_path, :id => "services"
+  %li.pull-right
+    = link_to "COMPANY",  company_path, :id => "company"
