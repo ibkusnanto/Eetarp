@@ -1,0 +1,32 @@
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing:-3px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+
+.content {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.company#contact_us {
+  .malaysia {
+    padding-top: 20px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  strong {
+    font-size: 16px;
+  }
+}

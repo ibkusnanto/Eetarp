@@ -2,30 +2,58 @@
   .slider-wrapper.theme-default
     .ribbon
     #slider.nivoSlider
-      = image_tag("slide1.jpg", :title => "#caption1")
-      = image_tag("slide2.jpg", :title => "#caption2")
-      = image_tag("slide3.jpg", :title => "#caption3")
+      = image_tag("electricalsafety.jpg", :title => "#caption1")
+      = image_tag("powerquality.jpg", :title => "#caption2")
+      = image_tag("energymanagement.jpg", :title => "#caption3")
     #caption1.nivo-html-caption
       %strong ELECTRICAL SAFETY
       %span
       = succeed "." do
-        %em Some description here
+        %em In almost all aspects of our daily life, safety is indispensable
     #caption2.nivo-html-caption
       %strong POWER QUALITY
       %span
       = succeed "." do
-        %em Some description here
+        %em Reliable and continuous power supply for our daily activities
     #caption3.nivo-html-caption
       %strong ENERGY MANAGEMENT
       %span
       = succeed "." do
-        %em Some description here
-.row.highlights
-  .span3
-    YOUR TRUSTED PARTNER
-  .span3
-    YOUR RIGHT SOLUTIONS
-  .span3
-    BROWSE OUR WORLD CLASS PRODUCTS
-  .span3
-    ENGAGE OUR SERVICES
+        %em Energy consumption is one of the most significant costs in a company
+.row.highlights#home
+  %a.span3.up-down.one{ :href => "/company/your_trusted_partner" }
+    .slide.default1
+      .titlebox
+      .title
+        YOUR TRUSTED PARTNER
+    .slide.onhover
+      .link
+        read more
+        %i.icon-arrow-right.icon-white
+  %a.span3.up-down.two{ :href => "/solutions" }
+    .slide.default2
+      .titlebox
+      .title
+        YOUR RIGHT SOLUTIONS
+    .slide.onhover
+      .link
+        read more
+        %i.icon-arrow-right.icon-white
+  %a.span3.up-down.three{ :href => "/products" }
+    .slide.default3
+      .titlebox
+      .title
+        BROWSE OUR PRODUCTS
+    .slide.onhover
+      .link
+        read more
+        %i.icon-arrow-right.icon-white
+  %a.span3.up-down.four{ :href => "/services" }
+    .slide.default4
+      .titlebox
+      .title
+        ENGAGE OUR SERVICES
+    .slide.onhover
+      .link
+        read more
+        %i.icon-arrow-right.icon-white

@@ -1,7 +1,8 @@
 .company
-  .title
-    YOUR TRUSTED PARTNER
-  .content
+  .content.clearfix
+    %h1 YOUR TRUSTED PARTNER
+    .image.pull-right
+      = image_tag('trust.jpg')
     %p
       Our organization, 
       = succeed ',' do
