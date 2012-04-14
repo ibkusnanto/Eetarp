@@ -183,4 +183,13 @@ ul.navbar {
   margin-bottom: 20px;
   color: #C8D5FF;
   font-size: 12px;
+
+  .span12 {
+    padding-right: 20px;
+    width: 900px;
+
+    .email {
+      padding-top: 2px;
+    }
+  }
 }
