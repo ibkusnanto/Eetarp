@@ -16,8 +16,9 @@
 
 $(window).load(function() {
   $('#slider').nivoSlider({
-    effect: 'random',
+    effect: 'fade',
     directionNavHide: true,
+    pauseTime:3000,
     pauseOnHover: true,
     captionOpacity: 1,
     prevText: '<',
